@@ -1,7 +1,7 @@
 {
   "name": "time-warp-manipulation",
   "displayName": "Time Warp - Time Manipulation Library",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "A TypeScript-based library for manipulating JavaScript time: freeze, fast-forward, rewind, or accelerate the clock.",
   "type": "module",
   "main": "dist/index.js",
@@ -27,12 +27,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yourusername/time-warp.git"
+    "url": "https://github.com/hoangsonww/Time-Warp-Manipulation-Library.git"
   },
   "bugs": {
-    "url": "https://github.com/yourusername/time-warp/issues"
+    "url": "https://github.com/hoangsonww/Time-Warp-Manipulation-Library/issues"
   },
-  "homepage": "https://github.com/yourusername/time-warp#readme",
+  "homepage": "https://github.com/hoangsonww/Time-Warp-Manipulation-Library#readme",
   "devDependencies": {
     "@types/jest": "^29.0.0",
     "jest": "^29.0.0",
