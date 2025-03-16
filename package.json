@@ -1,7 +1,7 @@
 {
   "name": "time-warp-manipulation",
   "displayName": "Time Warp - Time Manipulation Library",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "A TypeScript-based library for manipulating JavaScript time: freeze, fast-forward, rewind, or accelerate the clock.",
   "type": "module",
   "main": "dist/index.js",
