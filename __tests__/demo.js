@@ -36,6 +36,27 @@ disableTimeWarp();
 console.log("Real time restored:", Date.now());
 
 // Should output something like:
+// > node __tests__/demo.js
+//
+// [getWarpedTime] realNow: 1742156511323, startRealTime: 0, realElapsed: 1742156511323, speed: 1, startWarpTime: 0, warpedTime: 1742156511323
+// [setTimeWarpOptions] Previous warped time: 1742156511323
+// [setTimeWarpOptions] Set freezeAt to: 1893456000000
+// [setTimeWarpOptions] Set speed to: 1
+// [getWarpedTime] Time is frozen at: 1893456000000
+// [setTimeWarpOptions] TimeWarp activated. startRealTime: 1742156511329 startWarpTime: 1893456000000
+// [monkeyPatchGlobalDate] Monkey-patching global Date with TimeWarpDate.
+// [getWarpedTime] Time is frozen at: 1893456000000
+// [TimeWarpDate.now] Returning warped time: 1893456000000
 // Frozen time: 1893456000000
-// Accelerated virtual time: 1893456000000
-// Real time restored: 1742155645526
+// [getWarpedTime] Time is frozen at: 1893456000000
+// [setTimeWarpOptions] Previous warped time: 1893456000000
+// [setTimeWarpOptions] Set freezeAt to: null
+// [setTimeWarpOptions] Set speed to: 5
+// [getWarpedTime] realNow: 1742156511329, startRealTime: 1742156511329, realElapsed: 0, speed: 5, startWarpTime: 1893456000000, warpedTime: 1893456000000
+// [setTimeWarpOptions] TimeWarp updated. New startRealTime: 1742156511329 New startWarpTime: 1893456000000
+// [getVirtualTimeObject] Returning virtual time object.
+// [getWarpedTime] realNow: 1742156511330, startRealTime: 1742156511329, realElapsed: 1, speed: 5, startWarpTime: 1893456000000, warpedTime: 1893456000005
+// Accelerated virtual time: 1893456000005
+// [disableTimeWarpCompletely] Disabling TimeWarp.
+// [restoreGlobalDate] Restoring original Date class.
+// Real time restored: 1742156511330

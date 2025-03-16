@@ -40,6 +40,7 @@
     "typescript": "^5.0.0"
   },
   "dependencies": {
-    "prettier": "^3.5.3"
+    "prettier": "^3.5.3",
+    "time-warp-manipulation": "^1.1.0"
   }
 }
